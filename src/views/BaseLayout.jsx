@@ -1,3 +1,4 @@
+// BaseLayout.jsx
 import { Link, Outlet } from 'react-router-dom';
 
 const BaseLayout = () => {
@@ -15,6 +16,16 @@ const BaseLayout = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/available-cats">
                 Available Cats
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about-us">
+                About Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact-us">
+                Contact Us
               </Link>
             </li>
           </ul>
